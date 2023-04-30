@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  body{
+   
+  background-color:  hsla(0, 0%, 100%, 0.75);
+  
+  background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    justify-content: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    
+    }
+
+    .container{
+        
+        display: flex;
+        width: 55%;
+     height:450px;
+        
+    }
+
+    .icons{
+
+        margin-bottom: 2rem;
+    }
+ #item1{
+
+background-color: hsl(31, 77%, 52%);
+padding: 2rem;
+ }
+
+
+#item2{
+
+  background-color: hsl(184, 100%, 22%);
+  padding: 2rem;
+
+}
+
+#item3{
+
+ background-color:hsl(179, 100%, 13%);
+ padding: 2rem;
+
+}
+
+
+p{
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+h2{
+
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+
+
+    .btn {
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: 'Lexend Deca', sans-serif;
+        color: #ea9bea;
+        font-size: 14px;
+        background: #ffffff;
+        padding: 12px 25px 12px 26px;
+      border: 1px solid white;
+      }
+      
+      #btn1{
+
+        color:hsl(31, 77%, 52%);
+      }
+      #btn1:hover {
+        background-color: hsl(31, 77%, 52%);
+    color: white;
+        text-decoration: none;
+      }
+    
+      #btn2{
+
+        color:hsl(184, 100%, 22%);
+      }
+      #btn2:hover {
+        background-color: hsl(184, 100%, 22%);
+         color: white;
+        text-decoration: none;
+      }
+      #btn3{
+
+        color:hsl(179, 100%, 13%);
+      }
+      #btn3:hover {
+        background-color: hsl(179, 100%, 13%);
+         color: white;
+        text-decoration: none;
+      }
+
+      @media (max-width: 600px) {
+        .container {
+        
+          flex-direction: column;
+       
+        }
+       
+      }
